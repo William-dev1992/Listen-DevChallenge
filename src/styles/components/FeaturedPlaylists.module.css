@@ -1,0 +1,91 @@
+.container{
+  display: flex;
+  flex-direction: column;
+
+  max-width: 76rem;
+  height: 100%;
+}
+
+.container h2{
+  color: var(--white);
+
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.container .playlistsContainer{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+
+  padding-bottom: 1rem;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.container .playlistsContainer::-webkit-scrollbar {
+  height: 5px;
+  border-radius: 10px;
+
+  margin-top: 5px;
+}
+
+.container .playlistsContainer::-webkit-scrollbar-track {
+  background: var(--scrollbar-background);
+  border-radius: 10px;
+}
+
+.container .playlistsContainer::-webkit-scrollbar-thumb {
+  background: var(--purple);
+  border-radius: 10px;
+}
+
+.container .playlistsContainer div{
+  height: 100%;
+  width: 25rem;
+
+  margin-right: 1.5rem;
+
+}
+
+.container .playlistsContainer div a div.imageContainer{
+  height: 13rem;
+  width: 22rem;
+
+  border-radius: 10px;
+
+  margin-bottom: 0.5rem;
+  transition: 0.2s;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .playlistsContainer div a div.imageContainer img{
+
+  height: 100%;
+  width: 100%;
+  transition: 0.2s;
+}
+
+.container .playlistsContainer div a div.imageContainer img:hover{
+  height: 120%;
+  width: 120%;
+}
+
+.container .playlistsContainer div a h3{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+
+  color: var(--white);
+}
+
+.container .playlistsContainer div a span{
+  color: var(--gray);
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+

@@ -1,0 +1,95 @@
+.container{
+  display: flex;
+  flex-direction: column;
+
+  width: 23rem;
+  height: 16rem;
+}
+
+.container h3{
+  color: var(--white);
+
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.container ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container ul{
+  list-style: none;
+}
+
+.container ul li a{
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 1.5rem;
+
+  width: 20rem;
+
+  position: relative;
+}
+
+
+.container ul li a div.profilePicture{
+  height: 4rem;
+  width: 4rem;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-right: 1rem;
+
+  border-radius: 5px;
+}
+
+.container ul li a div img{
+  height: 8rem;
+  width: 8rem;
+}
+
+.container ul li a div.profileNameAndTime{
+  color: var(--gray);
+  font-weight: 100;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container ul li a div.profileNameAndTime p{
+  font-weight: 600;
+  font-size: 1rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.container ul li a div.profileNameAndTime span{
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+
+.container ul li a span.albums{
+  position: absolute;
+  right: 5px;
+
+  font-size: 0.7rem;
+  color: var(--gray);
+
+  display: flex;
+}
+
+.container ul li a div.profileNameAndTime:hover{
+  color: var(--white) !important;
+}

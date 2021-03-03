@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br />
+<p align="center">
+    <img src="https://imgur.com/ipLHFFb.gif" alt="Logo" width="1000">
 
-## Getting Started
+  <h3 align="center">Music Library Page by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
+ <br />
+  <p align="center">
+     Página de biblioteca de músicas
+       <br/>
+    <br/>
+    <a href="https://github.com/mannoeu/landing-page-music">Desafio</a>
+    ·
+    <a href="https://www.devchallenge.com.br/">DevChallenge</a>
+  </p>
+</p>
 
-First, run the development server:
+## Índice
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* [Devchallenge](#devchallenge) 
+* [Desafio](#desafio)
+* [Techs](#techs)
+* [Como começar](#como-começar)
+* [Dicas](#dicas)  
+  * [Cores](#cores)
+  * [Modelo](#modelo)
+  * [Imagens](#imagens)
+  * [Icones](#icones)
+  * [Tipo de fonte](#tipo-de-fonte)
+* [Compartilhe](#compartilhe)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Devchallenge
+<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Desafio
+O desafio consiste em reproduzir um dashboard de um sistema de músicas semelhante ao Spotify, onde é possível visualizar playlists, tracks e artistas.

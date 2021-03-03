@@ -1,0 +1,83 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+  width: 15rem;
+
+  background: var(--black);
+  padding: 4rem 0;
+}
+
+.container .profile{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 12rem;
+  height: 15rem;
+}
+
+.container .profile h3{
+  color: var(--white);
+  font-size: 1.3rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.container .profile span{
+  color: var(--gray);
+  font-size: 0.8rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .profile span:hover{
+  color: var(--white);
+}
+
+.container .profile span a{
+  margin-right: 1rem;
+}
+
+.container .profile img{
+  height: 5rem;
+  margin-right: 0.7rem;
+
+  border-radius: 8px;
+}
+
+.sidebarOptions{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 9rem;
+
+  margin-top: 1rem;
+  padding: 1.5rem 0 2rem 0;
+
+  border-top: 1px solid var(--gray);
+}
+
+.sidebarOptions ul{
+  list-style: none;
+}
+
+.sidebarOptions ul li{
+  color: var(--gray);
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+}
+
+.sidebarOptions ul li:hover{
+  color: var(--white);
+}
+
+
+.sidebarOptions ul li a{
+  margin-left: 1rem;
+}

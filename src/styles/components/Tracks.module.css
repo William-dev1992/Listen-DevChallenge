@@ -1,0 +1,82 @@
+.container{
+  display: flex;
+  flex-direction: column;
+
+  width: 50rem;
+}
+
+.container h3{
+  color: var(--white);
+
+  font-size: 1.3rem;
+}
+
+.container .tracksContainer{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+
+  padding-bottom: 2rem;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.container .tracksContainer::-webkit-scrollbar {
+  height: 5px;
+  border-radius: 10px;
+
+  margin-top: 5px;
+}
+
+.container .tracksContainer::-webkit-scrollbar-track {
+  background: var(--scrollbar-background);
+  border-radius: 10px;
+}
+
+.container .tracksContainer::-webkit-scrollbar-thumb {
+  background: var(--purple);
+  border-radius: 10px;
+}
+
+.container .tracksContainer div{
+  height: 12rem;
+  width: 10rem;
+
+  margin-right: 1rem;
+
+  filter: brightness(0.4);
+
+  transition: 0.2s;
+}
+
+.container .tracksContainer div:hover{
+  filter: brightness(1);
+}
+
+.container .tracksContainer div img{
+  height: 8rem;
+  width: 8rem;
+
+  border-radius: 10px;
+
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+
+  transition: 0.2s;
+}
+
+.container .tracksContainer div img:hover{
+  height: 9rem;
+  width: 9rem;
+}
+
+.container .tracksContainer div h3{
+  font-size: 0.9rem;
+  color: var(--white);
+}
+
+.container .tracksContainer div span{
+  color: var(--gray);
+  font-size: 0.8rem;
+}
