@@ -1,3 +1,46 @@
+
+# Listen
+> A music library, kinda spotify.
+
+## Table of contents
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## Technologies
+
+* Next - 10.0.7
+* React - 17.0.1
+* Typescript - ^4.2.2
+
+## Setup
+
+1- Go to your terminal and access the directory you want to put this project;
+2- Type: ```git clone https://github.com/William-dev1992/Listen-DevChallenge.git```;
+3- Open the project in your terminal and download the dependencies;
+4- Run the code with ```yarn dev``` or ```npm run dev```;
+
+## Status
+
+Project is: _in progress_.
+
+I will make the playlist and tracks be genereted dynamically.
+
+## Inspiration
+
+The design of this page was made by [DevChallenge](https://www.devchallenge.com.br/).
+*[DevChallenge-README](#DevChallenge)
+
+## Contact
+Created by [@William Ferreira](https://www.linkedin.com/in/william-ferreira-3629a61b0/) - feel free to contact me!
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 <br />
 <p align="center">
     <img src="https://imgur.com/ipLHFFb.gif" alt="Logo" width="1000">
@@ -33,3 +76,46 @@
 
 # Desafio
 O desafio consiste em reproduzir um dashboard de um sistema de músicas semelhante ao Spotify, onde é possível visualizar playlists, tracks e artistas.
+O modelo final está disponível na pasta "design"
+
+## Requisitos:
+- Sua página deverá conter uma barra lateral fixa com as opções de menu<br>
+- Sua página deverá contar com listas de visualização das playlists, dos perfils e das músicas<br>
+- Sua página deverá ser responsiva
+
+### Requisitos bônus
+- Você poderá adicionar uma visualização individual da música quando o usuário clicar na mesma
+
+# Techs: 
+- HTML, CSS e JavaScript
+
+# Como começar:
+1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
+2 - Leia as instruções no readme.md<br>
+3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
+4 - Compartilhe seu resultado com a comunidade! Se puder, mostre seus resultado aqui no repositório também, criando uma Issue :)<br>
+
+# Dicas
+
+## Cores:
+Preto: #040517;
+Branco: #e5e5e5e7;<br>
+Azul: rgb(32, 15, 86);
+
+## Modelo:
+O modelo final desktop e mobile está disponível na pasta `./design`
+
+## Imagens
+As imagens utilizadas estão disponíveis na pasta `./assets`
+
+## Icones
+Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
+
+## Tipo de fonte:
+- Montserrat
+
+# Compartilhe!
+Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
+Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
+
+Desafio criado por  <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
